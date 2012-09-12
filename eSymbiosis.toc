@@ -1,0 +1,7 @@
+## Interface: 50001
+## Version: 5.0.1
+## Title: eSymbiosis
+## Notes: Tells you what you can get and give with symbiosis.
+## Author: Ession
+
+eSymbiosis.lua
