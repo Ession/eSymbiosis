@@ -4,7 +4,7 @@
 --
 --    Description:  Tells you what you can get and give with symbiosis.
 --
---        Version:  5.0.1
+--        Version:  5.2.1
 --
 --         Author:  Mathias Jost (mail@mathiasjost.com)
 --
