@@ -4,4 +4,7 @@
 ## Notes: Tells you what you can get and give with symbiosis.
 ## Author: Ession
 
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibGroupInSpecT-1.0\LibGroupInSpecT-1.0.lua
 eSymbiosis.lua

@@ -1,0 +1,70 @@
+------------------------------------------------------------------------
+r59 | greltok | 2013-03-31 06:45:31 +0000 (Sun, 31 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/LibGroupInSpecT-1.0.lua
+
+Fixed punctuation on debug messages.
+------------------------------------------------------------------------
+r58 | greltok | 2013-03-31 04:28:21 +0000 (Sun, 31 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/LibGroupInSpecT-1.0.lua
+
+Debug statements enclosed in @debug@ tags so that the packager will comment them out.
+------------------------------------------------------------------------
+r57 | greltok | 2013-03-31 04:21:17 +0000 (Sun, 31 Mar 2013) | 7 lines
+Changed paths:
+   M /trunk/LibGroupInSpecT-1.0.lua
+
+Send spec data comm when group joined.
+Reject comms from senders for which we can't find a unitid.
+Reject comms from scopes other than what we expect.
+Reject comms if sender's guid doesn't match the comm guid.
+Remove guid from our queues when we receive a comm.
+Removed stale delay.
+Reduced the retry count from 3 to 2.
+------------------------------------------------------------------------
+r56 | greltok | 2013-03-17 17:48:43 +0000 (Sun, 17 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/LibGroupInSpecT-1.0.lua
+
+Reinspect units when their UnitIsVisible() changes.
+------------------------------------------------------------------------
+r55 | greltok | 2013-03-11 07:34:02 +0000 (Mon, 11 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/LibGroupInSpecT-1.0.lua
+
+Avoid iterating glyph info twice during addon messaging.
+------------------------------------------------------------------------
+r54 | greltok | 2013-03-11 06:58:16 +0000 (Mon, 11 Mar 2013) | 2 lines
+Changed paths:
+   M /trunk/LibGroupInSpecT-1.0.lua
+
+No longer discard inspects after they've failed several times.
+Fixed issue with receiving glyph names over addon channel.
+------------------------------------------------------------------------
+r53 | greltok | 2013-03-07 23:35:00 +0000 (Thu, 07 Mar 2013) | 5 lines
+Changed paths:
+   M /trunk/LibGroupInSpecT-1.0.lua
+   M /trunk/LibGroupInSpecT-1.0.toc
+
+Replaced tabs with spaces.
+Fixed issue with adding items to stale queue using guid as value rather than inspect count.
+Reuse member table for GROUP_ROSTER_UPDATE to reduce garbage tables.
+Fixed scope of addon messages.
+Don't inspect "player" during :Rescan().
+------------------------------------------------------------------------
+r51 | greltok | 2013-03-03 09:18:25 +0000 (Sun, 03 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/LibGroupInSpecT-1.0.lua
+
+Fixed issue with fixed roles when we don't yet have a valid spec id.
+------------------------------------------------------------------------
+r50 | oscarucb | 2013-02-24 02:47:34 +0000 (Sun, 24 Feb 2013) | 3 lines
+Changed paths:
+   M /trunk/LibGroupInSpecT-1.0.lua
+   M /trunk/LibGroupInSpecT-1.0.toc
+
+tweak minor version code
+toc bump
+
+------------------------------------------------------------------------
